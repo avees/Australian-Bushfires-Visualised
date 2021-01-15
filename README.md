@@ -3,18 +3,19 @@
 Visualises Australian Bushfire History by state. Produces both images for each year and a video.
 Currently still in development.
 
-Demo of VIC Bushfire History video:
+Demo of NSW Bushfire History video:
 
-***************TODO: INSERT PREVIEW OF VIC BUSHFIRE VIDEO HERE************************
+[![NSW Bushfire History Visualisation](https://j.gifs.com/oV3PQz.gif)](https://www.youtube.com/watch?v=cyI8xhLx5VE)
 
 ## Getting Started
 
 These instructions will allow you to reproduce the generated images and video.
 
+
 ### Prerequisites
 
 The required Python modules and versions have been listed in requirements.txt. You can install
-all of the required modules using the following command:
+all the required modules using the following command:
 
 ```
 pip install -r requirements.txt
@@ -46,6 +47,11 @@ Once all datasets have been downloaded, navigate to the directories containing t
 Place all VIC data (ward boundaries and fire history) files within `/data/VIC/`, and all NSW data files within `/data/NSW/`.
 
 
+## Producing Visualisations
+
+After obtaining the datasets and placing them in the specified directories, simply execute the script for the desired state.
+E.g. Run `gen_visualisation_VIC.py` to produce a visualisation of VIC Bushfire History in a video format, as well as the
+utilised images within `/images/VIC_bushfire_images`.
 
 
 ## Authors
@@ -56,7 +62,7 @@ Place all VIC data (ward boundaries and fire history) files within `/data/VIC/`,
 
 ## License
 
-This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
+This project is licensed under the MIT License - see [LICENSE.md](LICENSE.md) for details.
 
 
 ## Acknowledgments
