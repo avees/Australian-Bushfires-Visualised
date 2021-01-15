@@ -36,7 +36,7 @@ def generate_images():
         plot.axis([141, 154, -37.5, -28])
 
         fig = plot.get_figure()
-        fig.suptitle("Bushfire Season: {}".format(i + 1), fontsize=30)
+        fig.suptitle("NSW Bushfire Season: {}".format(i + 1), fontsize=30)
         fig.savefig("{}/{}.png".format(output_dir, i + 1), bbox_inches='tight', pad_inches=0.1, metadata=None)
         print("Saved: {}".format(i + 1))
 

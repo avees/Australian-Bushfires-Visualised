@@ -51,7 +51,7 @@ Place all VIC data (ward boundaries and fire history) files within `/data/VIC/`,
 ## Authors
 
 * **Aveesha Seneviratne** - *Developer* - [GitHub](https://github.com/avees)
-* **Aaron Westbury** - *Co-Developer and provided project idea* - [LinkedIn](https://www.linkedin.com/in/aaron-westbury-709889189/)
+* **Aaron Westbury** - *Co-Developer and Project Idea Originator* - [LinkedIn](https://www.linkedin.com/in/aaron-westbury-709889189/)
 
 
 ## License
