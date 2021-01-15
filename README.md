@@ -29,13 +29,15 @@ I haven't included the raw data files due to their size, however you may obtain 
 * [VIC Ward Boundaries 2020](https://discover.data.vic.gov.au/dataset/ward-boundaries-2020-polygon-vicmap-admin)
 	* Area Type: Whole of State
 	* Area: VIC
+	* Buffer Distance: +1km
 	* Format: ESRI Shape File
-	* Projection: _VICGRID on GDA-2020
+	* Projection: Geographicals on GDA-94
 * [VIC Fire History](https://discover.data.vic.gov.au/dataset/fire-history-overlay-of-most-recent-fires)
 	* Area Type: Whole of State
 	* Area: VIC
+	* Buffer Distance: +1km
 	* Format: ESRI Shape File
-	* Projection: _VICGRID on GDA-2020
+	* Projection: Geographicals on GDA-94
 * [NSW Local Government Areas](https://data.gov.au/dataset/ds-dga-f6a00643-1842-48cd-9c2f-df23a3a1dc1e/details)
 	* Download "NSW LGA POLYGON shp GDA2020.zip(SHP)"
 * [NSW Fire History](https://data.nsw.gov.au/data/dataset/fire-history-wildfires-and-prescribed-burns-1e8b6)
