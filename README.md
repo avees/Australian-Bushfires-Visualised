@@ -68,4 +68,5 @@ This project is licensed under the MIT License - see [LICENSE.md](LICENSE.md) fo
 ## Acknowledgments
 
 * VIC Government - Providing VIC Ward Boundaries and Fire History data
-* NSW Government - Providing NSW Local Government Areas and Fire History data
+* NSW Government - Providing NSW Fire History data
+* Australian Government - Providing NSW Local Government Areas data
