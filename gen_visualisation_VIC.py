@@ -3,7 +3,7 @@ import matplotlib.pylab as pylab
 from moviepy.editor import *
 
 
-# TODO: Fix legend to be static
+# Generate and store images of all historic bushfires
 def generate_images():
     # Create output directory
     dir_path = os.path.dirname(os.path.realpath(__file__))
@@ -24,6 +24,7 @@ def generate_images():
 
     # Plot data and save images
     for i in range(start_year, end_year + 1):
+        # TODO: Fix legend to use static colours
         ax = df_map.plot(figsize=(24, 18), cmap='Pastel2', edgecolor='black')
 
         pylab.rcParams['figure.figsize'] = 24, 18
@@ -39,6 +40,7 @@ def generate_images():
     return output_dir
 
 
+# Use generated images to create a visualisation in video form
 def generate_video(images_dir):
     base_dir = os.path.realpath(".")
     images_dir = base_dir + '\\' + images_dir + '\\'
