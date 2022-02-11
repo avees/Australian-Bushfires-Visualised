@@ -59,7 +59,7 @@ utilised images within `/images/VIC_bushfire_images`.
 ## Authors
 
 * **Aveesha Seneviratne** - *Developer* - [GitHub](https://github.com/avees)
-* **Aaron Westbury** - *Co-Developer and Project Idea Originator* - [LinkedIn](https://www.linkedin.com/in/aaron-westbury-709889189/)
+* **Aaron Westbury** - *Co-Developer and Project Originator* - [LinkedIn](https://www.linkedin.com/in/aaron-westbury-709889189/)
 
 
 ## License
